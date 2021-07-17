@@ -49,6 +49,7 @@ export default class App extends React.Component {
     } else {
       return (
         <div>
+
           <button value='add'>Add Student</button>
           <button value='list'>List Students</button>
           <button value='random'>Random Student</button>
@@ -57,3 +58,4 @@ export default class App extends React.Component {
     }
   }
 }
+
