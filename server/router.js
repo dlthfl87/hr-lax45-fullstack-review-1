@@ -7,6 +7,7 @@ const controller = require('./controller.js');
 router
   .route('/students')
     .get(controller.students.getStudents)
+    .post(controller.students.postStudent)
 
 // route for updating a student's name
 router
